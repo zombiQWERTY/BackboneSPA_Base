@@ -1,0 +1,23 @@
+{
+	"name"           : "",
+	"version"        : "2.0.0",
+	"repository"     : "",
+	"description"    : "",
+	"main"           : "Gulpfile.js",
+	"author"         : "zombiQWERTY",
+	"license"        : "CC BY-NC-ND 4.0",
+	"devDependencies": {
+		"gulp"                        : "latest",
+		"gulp-uglify"                 : "latest",
+		"gulp-streamify"              : "latest",
+		"gulp-minify-css"             : "latest",
+		"gulp-file-include"           : "latest",
+		"gulp-coffee"                 : "latest",
+		"gulp-imagemin"               : "latest",
+		"imagemin-pngquant"           : "latest",
+		"gulp-compass"                : "latest",
+		"vinyl-source-stream"         : "latest",
+		"connect-history-api-fallback": "latest",
+		"browser-sync"                : "latest"
+	}
+}

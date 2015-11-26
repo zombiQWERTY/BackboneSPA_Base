@@ -1,0 +1,48 @@
+@mixin box($width, $height)
+	width: $width
+	height: $height
+
+@mixin last-margin($type)
+	@if $type == top
+		&:last-child
+			margin-top: 0
+	@else if $type == bottom
+		&:last-child
+			margin-bottom: 0
+	@else if $type == left
+		&:last-child
+			margin-left: 0
+	@else if $type == right
+		&:last-child
+			margin-right: 0
+	@else
+		&:last-child
+			margin-bottom: 0
+
+@mixin first-margin($type)
+	@if $type == top
+		&:first-child
+			margin-top: 0
+	@else if $type == bottom
+		&:first-child
+			margin-bottom: 0
+	@else if $type == left
+		&:first-child
+			margin-left: 0
+	@else if $type == right
+		&:first-child
+			margin-right: 0
+	@else
+		&:first-child
+			margin-bottom: 0
+
+@mixin block-center()
+	+translate(-50%, -50%)
+	position: absolute
+	left: 50%
+	top: 50%
+
+@mixin block-h-center()
+	+translate(-50%, 0)
+	position: absolute
+	left: 50%
